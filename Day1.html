@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Pokemon Table</title>
+        <title>Day 1</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
@@ -100,7 +100,7 @@
        <p>To connect input tag with label we use a for-id as the matching pair will be connected</p> 
        <form action="http://wikipedia.org" method="GET">
             <label for="username">Username: </label>
-            <input id+"username" name="username" type="text" placeholder="username">
+            <input id="username" name="username" type="text" placeholder="username">
 
             <label for="password">Password: </label>
             <input name="password" type="password" placeholder="password">
@@ -108,6 +108,98 @@
         </form>
 
         <h2>Form Validations</h2>
+        <form action="http://wikipedia.org" method="GET">
+            <label for="email">Emal: </label>
+            <input id="username" name="email" type="email" placeholder="username" required>
+        
+            <label for="password">Password: </label>
+            <input name="password" type="password" placeholder="password" required>
+            <button>Submit</button>
+        </form>
+        <hr>
+
+        <P>Dropdown and radio Buttons</P>
+
+        <p>Do you prefer dogs or cats</p>
+        <form>
+            <label for="cat">Cat: </label>
+            <input vakue="DOGS" name="petChoice" id="cat" type="radio">
+
+            <label for="dog">Dog: </label>
+            <input value="CATS" name="petChoice" id="dog" type="radio">
+
+            <p>Whats your current mood?</p>
+
+            <select name="mood">
+                <option value="Happy">:)</option>
+                <option value="Emotionless">:|</option>
+                <option value="Sad">:(</option>
+            </select>
+
+            <p></p>
+            <label for="moodDetail">
+                Describe more about how you feel right now
+            </label>
+            <P></P>
+            <textarea id="moodDetail" rows="10" cols="10" name="moodDetail">
+            </textarea>
+            <P></P>
+
+            <button>Submit</button>
+        </form>
+        <p>There, when the user clicks any of the options the value either DOGS/CATS gets stored in the name="petChoice"</p>
+        <hr>
+
+        <h2>Form Exercise</h2>
+
+        <h3>Register</h3>
+        <form method="" action="">
+            <label for="firstName">First Name</label>
+            <input id="firstName" type="text" value="fName" placeholder="John">
+
+            <label for="lastName">Last Name</label>
+            <input id="lastName" type="text" value="lName" placeholder="Smith">
+            <p></p>
+
+            <label for="Male">Male</label>
+            <input id="Male" type="radio" value="male" >
+
+            <label for="Female">Female</label>
+            <input id="Female" type="radio" value="Female">
+
+            <label for="Other">Other</label>
+            <input id="Other" type="radio" value="Other">
+            <p></p>
+
+            <label for="email">Email: </label>
+            <input id="email" type="email" required>
+
+            <label for="password">password: </label>
+            <input id="password" type="password" required>
+            <p></p>
+
+            <label for="dob">Birthday: </label>
+            <select name="month">
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+            </select>
+            <select name="Day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+            <select name="Year">
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+            </select>
+            <p></p>
+            
+            <label for="terms">I agree to the terms and conditions</label>
+            <input type="checkbox">
+            <p></p>
+
+            <button>Submit</button>
+        </form>
+        
         <script src="" async defer></script>
     </body>
 </html>
