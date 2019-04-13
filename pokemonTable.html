@@ -9,7 +9,10 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-       <table border=1>
+        <h1>DAY 1</h1>
+
+       <h2>Form Validations</h2>
+        <table border=1>
            <tr>
                <th>Image</th>
                <th>Name</th>
@@ -60,7 +63,31 @@
             </td>
            </tr>
        </table>
-        
+       <hr>
+
+       <form  action="http://wikipedia.org" method="GET">
+        <label>
+            Username
+            <input name="username" type="text" placeholder="username">
+        </label>
+        <label>
+            Password
+            <input name="password" type="password" placeholder="password">
+        </label>
+            <button>Submit</button>   
+       </form>
+
+
+
+       <p>To connect input tag with label we use a for-id as the matching pair will be connected</p> 
+       <form action="http://wikipedia.org" method="GET">
+            <label for="username">Username: </label>
+            <input id+"username" name="username" type="text" placeholder="username">
+
+            <label for="password">Password: </label>
+            <input name="password" type="password" placeholder="password">
+            <button>Submit</button>
+        </form>
         <script src="" async defer></script>
     </body>
 </html>
