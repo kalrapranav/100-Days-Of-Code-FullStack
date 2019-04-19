@@ -1,4 +1,4 @@
-var button = document.getElementById("#button1");
+var button = document.querySelector("button");
 var isPurple = false;
 
 

@@ -1,0 +1,11 @@
+body {
+    background: pink;
+}
+
+.winner {
+    color: green;
+}
+
+.back {
+    background: url("https://images.unsplash.com/photo-1474169482634-9d0381a70510?ixlib=rb-1.2.1&auto=format&fit=crop&w=1355&q=80");
+}
