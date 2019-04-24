@@ -82,6 +82,18 @@ body {
   color: #333;
 }
 
+/* Media Query*/
+@media(max-width: 500px) {
+  .slide .content {
+    bottom: -300px;
+    left: 0;
+    width: 100%;
+  }
+
+  .slide.current .content {
+    transform: translateY(-300px);
+  }
+}
 
 
 
