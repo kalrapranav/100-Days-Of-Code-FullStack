@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+body {
+  width: 960px;
+  margin: 0 auto;
+  padding: 35px 0;
+  font-family: open sans;
+  background: #f2f2f2;
+}
+
+p {
+  font-family: open sans;
+  font-weight: 200;
+  color: #747474;
+}
+
+article {
+  margin-top: 1.5em;
+}
+
+.card {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  color: #333;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.card-image {
+  display: block;
+  -webkit-flex: 1 0 50%;
+  -ms-flex: 1 0 50%;
+  flex: 1 0 50%;
+  min-height: 240px;
+  background-position: center;
+  background-size: cover;
+  background-color: #ccc;
+}
+
+
+.card-content {
+  display: block;
+  -webkit-flex: 1 0 50%;
+  -ms-flex: 1 0 50%;
+  flex: 1 0 47%;
+  margin: 0;
+  padding: ;
+  background: #fff;
+}
+
+.card-content {
+  padding: 1.5em 1em 1.5em 1.5em;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.card-header {}
+
+.card-subtitle {
+  font-family: open sans;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #66CCCC;
+  margin: 0;
+  margin-bottom: 4px;
+  padding: 0;
+  font-weight: 400;
+}
+
+.card-title {
+  font-family: 'open sans';
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  color: #333;
+}
+
+.card-title a {
+  color: #333;
+  text-decoration: none;
+  transition: ease 500ms all;
+}
+
+.card-title a:hover {
+  color: #66cccc;
+  text-decoration: none;
+}
+
+.card-body {
+  font-family: open sans;
+  display: block;
+}
+
+.read-more {
+  margin-top: 1.5rem;
+  text-align: right;
+  color: #333;
+  padding-right: 30px;
+}
+
+.read-more a {
+  color: #333;
+  opacity: .6;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 20px;
+  font-family: open sans;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #747474;
+}
