@@ -1,5 +1,9 @@
+body {
+  background-color: rgba(13, 110, 139, 0.75); 
+}
+
 .smoothSlideContainer{
-  background-color:white;
+  background-color: background-color: rgba(13, 110, 139, 0.75); 
   position:absolute;
   height:100%;
   width:100%;
