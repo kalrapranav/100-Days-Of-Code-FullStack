@@ -32,7 +32,7 @@ body {
 
 .showcase:before {
   content: '';
-  background: url('https://lh3.googleusercontent.com/mByjmFBfPR5nbh1uxP989Y_kQsjv2sIeOJudtyo2BLyqBa6npdyA4uczDtQisdzAVdViLGk-2X2N_mkVYxf-8ifG3o9L4AgIOshS6PtcRHXlHM_wYet2rsQH6FmHalyzvzTs4cqP0iNPzJJkRG8WRJvfTReBv3JuO5YubDGOpmePcC8sHLEz8T8RffJ9q5WOxTbWs-N5Y4wNcUyZfOo0wN6gYNkgDFoQDAhPNHE5619NMTIddlC9jsFp2B1-Kn4lx7oohmtVbSLqsCh-kFDX56bJrCW1lA7tWX5nygq207Qjuwmp_pA-GyQWacC2GSn2NY_ig070GbjUon9Y2WFpWMvC41qM7X2Zpwr6GMQ_24qxmZGsS-lDZr3hYVwIwsZS8fsYsc4rmBQeN_v2VfacSPyvbqeu4GsUk5NfkQhiGDWOiTTB32NBpqAQfbeYoPSL0xAHMtdg8j8_mlpkHFkctSbI1LG65opeQIftwgM_V7qiwfnx0YV4OQsTOzx39JiocDzFHI9ibUKJAgbkUl6HMAc86y804YNygzXhXOvOl7pC9xOiLcRemz2sDCdeAdJB8STXZi1NRHXhElJaSFGZ0q7anz9MEjVzoQLIV1iGv6lHfiOZJZDA-69U0EXlTwhZzNmPxASrysAf1Mt4PSAxZQsMZutsSOY=w1350-h900-no') no-repeat center center/cover;
+  background: url('https://images.unsplash.com/photo-1516992654410-9309d4587e94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60') no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
