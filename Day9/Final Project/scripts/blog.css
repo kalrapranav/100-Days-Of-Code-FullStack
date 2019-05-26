@@ -1,0 +1,35 @@
+body {
+    border: 6px solid #7c7b88;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #3cccc9;
+}
+
+h1 {
+    text-transform: capitalize;
+    color: #00005b;
+}
+
+div > div {
+    border-left: 5px solid #cecece;
+    padding-left: 0.4%;
+}
+
+body > div {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.style2 {
+	border-top: 3px double #8c8b8b;
+}
+
+#link-text {
+    font-color: #2214cd;
+}

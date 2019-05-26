@@ -1,0 +1,355 @@
+body {
+  background-color: rgba(13, 110, 139, 0.75); 
+}
+
+.smoothSlideContainer{
+  background-color: rgba(13, 110, 139, 0.75); 
+  position:absolute;
+  height:100%;
+  width:100%;
+  overflow:hidden;
+}
+
+#person img{
+  position:absolute;
+  height:100%;
+  right:0;
+  z-index:1;
+  -webkit-animation: personslideout 6s ease-in-out infinite;
+          animation: personslideout 6s ease-in-out infinite;
+}
+
+.bar{
+  background-color:#333;
+  z-index:0;
+}
+
+.bar2{
+  background-color:#333;
+  z-index:2;
+}
+
+#bar1{
+  position:absolute;
+  right:0;
+  top:30%;
+  height:3%;
+  width:50%;
+  -webkit-animation: bar1slide 6s ease-in-out infinite;
+          animation: bar1slide 6s ease-in-out infinite;
+}
+
+#bar2{
+  position:absolute;
+  right:0;
+  top:40%;
+  height:5%;
+  width:60%;
+  -webkit-animation: bar2slide 6s ease-in-out infinite;
+          animation: bar2slide 6s ease-in-out infinite;
+}
+
+#bar3{
+  position:absolute;
+  right:0;
+  top:50%;
+  height:12%;
+  width:40%;
+  -webkit-animation: bar3slide 6s ease-in-out infinite;
+          animation: bar3slide 6s ease-in-out infinite;
+}
+
+#bar4{
+  position:absolute;
+  right:0;
+  top:16%;
+  height:2%;
+  width:30%;
+  -webkit-animation: bar4slide 6s ease-in-out infinite;
+          animation: bar4slide 6s ease-in-out infinite;
+}
+
+#bar5{
+  position:absolute;
+  right:0;
+  top:85%;
+  height:4%;
+  width:30%;
+  -webkit-animation: bar5slide 6s ease-in-out infinite;
+          animation: bar5slide 6s ease-in-out infinite;
+}
+
+#bar6{
+  position:absolute;
+  right:0;
+  top:80%;
+  height:4%;
+  width:55%;
+  -webkit-animation: bar6slide 6s ease-in-out infinite;
+          animation: bar6slide 6s ease-in-out infinite;
+}
+
+#bar7{
+  position:absolute;
+  right:0;
+  top:65%;
+  height:10%;
+  width:25%;
+  -webkit-animation: bar6slide 6s ease-in-out infinite;
+          animation: bar6slide 6s ease-in-out infinite;
+}
+
+#bar8{
+  position:absolute;
+  right:0;
+  top:46%;
+  height:2%;
+  width:35%;
+  -webkit-animation: bar6slide 6s ease-in-out infinite;
+          animation: bar6slide 6s ease-in-out infinite;
+}
+
+@-webkit-keyframes bar1slide{
+  0%{
+    right:-100%;
+  }
+  20%{
+    right:-2%;
+  }
+  40%{
+    right:0;
+  }
+  70%{
+    right:-50%;
+  }
+  100%{
+    right:-100%;
+  }
+}
+
+@keyframes bar1slide{
+  0%{
+    right:-100%;
+  }
+  20%{
+    right:-2%;
+  }
+  40%{
+    right:0;
+  }
+  70%{
+    right:-50%;
+  }
+  100%{
+    right:-100%;
+  }
+}
+
+@-webkit-keyframes bar2slide{
+  0%{
+    right:-70%;
+  }
+  30%{
+    right:-2%;
+  }
+  50%{
+    right:0;
+  }
+  80%{
+    right:-70%;
+  }
+  100%{
+    right:-70%;
+  }
+}
+
+@keyframes bar2slide{
+  0%{
+    right:-70%;
+  }
+  30%{
+    right:-2%;
+  }
+  50%{
+    right:0;
+  }
+  80%{
+    right:-70%;
+  }
+  100%{
+    right:-70%;
+  }
+}
+
+@-webkit-keyframes bar3slide{
+  0%{
+    right:-70%;
+  }
+  60%{
+    right:-2%;
+  }
+  50%{
+    right:0;
+  }
+  80%{
+    right:-70%;
+  }
+  100%{
+    right:-70%;
+  }
+}
+
+@keyframes bar3slide{
+  0%{
+    right:-70%;
+  }
+  60%{
+    right:-2%;
+  }
+  50%{
+    right:0;
+  }
+  80%{
+    right:-70%;
+  }
+  100%{
+    right:-70%;
+  }
+}
+
+@-webkit-keyframes bar4slide{
+  0%{
+    right:-70%;
+  }
+  30%{
+    right:-2%;
+  }
+  50%{
+    right:0;
+  }
+  90%{
+    right:-70%;
+  }
+  100%{
+    right:-70%;
+  }
+}
+
+@keyframes bar4slide{
+  0%{
+    right:-70%;
+  }
+  30%{
+    right:-2%;
+  }
+  50%{
+    right:0;
+  }
+  90%{
+    right:-70%;
+  }
+  100%{
+    right:-70%;
+  }
+}
+@-webkit-keyframes bar5slide{
+  0%{
+    right:-70%;
+  }
+  35%{
+    right:-2%;
+  }
+  50%{
+    right:0;
+  }
+  70%{
+    right:-70%;
+  }
+  100%{
+    right:-70%;
+  }
+}
+@keyframes bar5slide{
+  0%{
+    right:-70%;
+  }
+  35%{
+    right:-2%;
+  }
+  50%{
+    right:0;
+  }
+  70%{
+    right:-70%;
+  }
+  100%{
+    right:-70%;
+  }
+}
+
+@-webkit-keyframes bar6slide{
+  0%{
+    right:-70%;
+  }
+  45%{
+    right:-2%;
+  }
+  60%{
+    right:0;
+  }
+  70%{
+    right:-70%;
+  }
+  100%{
+    right:-70%;
+  }
+}
+
+@keyframes bar6slide{
+  0%{
+    right:-70%;
+  }
+  45%{
+    right:-2%;
+  }
+  60%{
+    right:0;
+  }
+  70%{
+    right:-70%;
+  }
+  100%{
+    right:-70%;
+  }
+}
+
+@-webkit-keyframes personslideout{
+  0%{
+    right:-100%;
+  }
+  25%{
+    right:0%;
+  }
+  50%{
+    right:1%;
+  }
+  100%{
+    right:-100%;
+  }
+}
+
+@keyframes personslideout{
+  0%{
+    right:-100%;
+  }
+  25%{
+    right:0%;
+  }
+  50%{
+    right:1%;
+  }
+  100%{
+    right:-100%;
+  }
+}
+
