@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Flex Box</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="">
+        <style>
+            .a {
+                border: 2px solid black;
+                width: 50%;
+                height: 100px;
+                margin-left: 25%;
+                margin-right: 25%;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .b {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="d-flex p-2 bd-highlight a">I'm a flexbox container!</div>
+        <div class="d-inline-flex p-2 bd-highlight a">I'm an inline flexbox container!</div>
+        <div class="d-flex flex-row bd-highlight mb-3 a">
+            <div class="p-2 bd-highlight b">Flex item 1</div>
+            <div class="p-2 bd-highlight b">Flex item 2</div>
+            <div class="p-2 bd-highlight b">Flex item 3</div>
+        </div>
+        <div class="d-flex flex-row-reverse bd-highlight a">
+            <div class="p-2 bd-highlight b">Flex item 1</div>
+            <div class="p-2 bd-highlight b">Flex item 2</div>
+            <div class="p-2 bd-highlight b">Flex item 3</div>
+        </div>
+        <div class="d-flex justify-content-start a">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+        </div>
+        <div class="d-flex justify-content-end a">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+        </div>
+        <div class="d-flex justify-content-centre a">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+        </div>
+        <div class="d-flex justify-content-around a">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+        </div>
+        <div class="d-flex justify-content-between a">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+        </div>
+
+        <div class="d-flex justify-content-between a">
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-dark align-self-start">Dark</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        </div>
+        <div class="d-flex justify-content-between a">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-dark align-self-start">Dark</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+        </div>
+        <div class="d-flex justify-content-between a">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-dark align-self-end">Dark</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+        </div>
+        <div class="d-flex justify-content-between a">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-dark align-self-baseline">Dark</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+        </div>
+        <div class="d-flex justify-content-between a">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-dark align-self-strecth">Dark</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+        </div>
+         <p style="margin: 10px 25% 10px 25%">
+            Grow and shrink
+            Use .flex-grow-* utilities to toggle a flex item’s ability to grow to fill available space. In the example below, the
+            .flex-grow-1 elements uses all available space it can, while allowing the remaining two flex items their necessary
+            space.
+         </p>
+
+        <div class="d-flex bd-highlight a">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+        </div>
+        <div class="d-flex bd-highlight a">
+            <button type="button" class="btn btn-primary w-40 bd-highlight">Primary</button>
+            <button type="button" class="btn btn-dark p-2 w-50 bd-highlight">Dark</button>
+            <button type="button" class="btn btn-danger p-2 flex-shrink-1 bd-highlight">Danger</button>
+        </div>
+
+        <div class="d-flex justify-content-center a">
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-dark">Dark</button>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
