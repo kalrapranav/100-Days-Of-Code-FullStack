@@ -1,0 +1,14 @@
+p {
+    width: 50%;
+    /*50% of the entire webpage: so it become responsive*/
+    padding: 10px;
+    /*We can have padding top-bottom-right-left*/
+    border: 2px solid blue;
+    /* margin: 100px; 
+     100px around all sides
+     margin: 25px 50px 75px 100px;    
+     margin-left: 40px;
+    margin-right: 40px; 
+    */ 
+    margin: auto;
+}
