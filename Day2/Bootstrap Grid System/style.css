@@ -1,0 +1,15 @@
+div {
+    background-color: #0cb0f1;
+    border: 1px solid black;
+}
+.col-sm {
+    background-color: pink;
+}
+
+
+.col {
+    background-color: pink;
+}
+body {
+    background-color: black; 
+}
