@@ -1,17 +1,17 @@
-// var http = require('http');
+var http = require('http');
 
-// var fs = require('fs');
+var fs = require('fs');
 
 
-// var server = http.createServer(function (req, res) {
-//     console.log("request was made " + req.url);
-//     res.writeHead(200, { 'Content-Type': 'text/html' });
-//     var myReadStream = fs.createReadStream(__dirname + '/index.html', 'utf8');
-//     myReadStream.pipe(res);
-// });
+var server = http.createServer(function (req, res) {
+    console.log("request was made " + req.url);
+    res.writeHead(200, { 'Content-Type': 'text/html' });
+    var myReadStream = fs.createReadStream(__dirname + '/index.html', 'utf8');
+    myReadStream.pipe(res);
+});
 
-// server.listen(3000, '127.0.0.1');
-// console.log('Now listening to PORT 3000');
+server.listen(3000, '127.0.0.1');
+console.log('Now listening to PORT 3000');
 
 //-----------------------------------------------------------------------------------------
 
@@ -19,26 +19,26 @@
 * Serving JSON to the client
  */
 
-// var http = require('http');
+var http = require('http');
 
-// var fs = require('fs');
+var fs = require('fs');
 
 
-// var server = http.createServer(function (req, res) {
-//     console.log("request was made " + req.url);
-//     res.writeHead(200, { 'Content-Type': 'application/json' });
+var server = http.createServer(function (req, res) {
+    console.log("request was made " + req.url);
+    res.writeHead(200, { 'Content-Type': 'application/json' });
     
-//     var myObj = {
-//         name: 'Pranav',
-//         job: 'Student',
-//         age: 29
-//     };
-//     //myObj needs to converted into a string
-//     res.end(JSON.stringify(myObj));
-// });
+    var myObj = {
+        name: 'Pranav',
+        job: 'Student',
+        age: 29
+    };
+    //myObj needs to converted into a string
+    res.end(JSON.stringify(myObj));
+});
 
-// server.listen(3000, '127.0.0.1');
-// console.log('Now listening to PORT 3000');
+server.listen(3000, '127.0.0.1');
+console.log('Now listening to PORT 3000');
 
 //when javascript in front end makes a request teh JSON will be the end will be send
 
