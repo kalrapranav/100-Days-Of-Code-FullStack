@@ -56,27 +56,48 @@
 * Creating a Server
  */
 
- //importing http package from nodejs
+//  //importing http package from nodejs
+//  var http = require('http');
+
+//  //creating a server with request adn response parametres
+//  //headers are extra info about the data send
+//  var server = http.createServer(function (req, res) {
+//      console.log("request was made " + req.url);
+//      res.writeHead(200, {'Content-Type': 'text/plain'});
+//      res.end('Hey Ninjas');
+//  });
+
+// server.listen(3000, '127.0.0.1');
+// console.log('Now listening to PORT 3000');
+
+//-----------------------------------------------------------------------------------------------
+/*
+* Streams and Buffers
+ */
+
+//Buffer - Temporary storage spot for a chunk of data, transferred from one spot to another 
+// DATA PASSED ON <-------------------------{chucks of it} ----{}---{}----{}----(whole chuck)
+// Stream - its the channel to pass those buffers
+
+
+/*
+* Readble Streams
+ */
+
+ //Writeable Streams: allow node js to write data to a stream
+ //Readable Streams: allow node js to read data to a stream
+ //Duplex: can read and write to a stream
+
  var http = require('http');
 
- //creating a server with request adn response parametres
- //headers are extra info about the data send
- var server = http.createServer(function (req, res) {
-     console.log("request was made " + req.url);
-     res.writeHead(200, {'Content-Type': 'text/plain'});
-     res.end('Hey Ninjas');
+ var fs = require('fs');
+
+ var myReadStream = fs.createReadStream(__dirname + '/readMe.txt', 'utf8');
+
+ myReadStream.on('data', function (chunk) {
+     console.log('new chunk recived:');
+     console.log(chunk);
  });
-
-server.listen(3000, '127.0.0.1');
-console.log('Now listening to PORT 3000');
-
-
-
-
-
-
-
-
 
 
 
