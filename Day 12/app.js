@@ -42,7 +42,33 @@
   * Client   <------(Response)-------- Server
   */
 
-  //Protocol - set of communication rules, while communication
+//Protocol - set of communication rules, while communication
+
+//Every computer has a seprate IP address and while communication a channel to 
+// send information is done by a socket
+
+// Information is send back via TCP protocol form server to clinet via packets
+
+//Ports- When a request is send to a IP address the client or server will only respond if its a 
+// specific post
+
+/*
+* Creating a Server
+ */
+
+ //importing http package from nodejs
+ var http = require('http');
+
+ //creating a server with request adn response parametres
+ //headers are extra info about the data send
+ var server = http.createServer(function (req, res) {
+     console.log("request was made " + req.url);
+     res.writeHead(200, {'Content-Type': 'text/plain'});
+     res.end('Hey Ninjas');
+ });
+
+server.listen(3000, '127.0.0.1');
+console.log('Now listening to PORT 3000');
 
 
 
@@ -68,11 +94,6 @@
 
 
 
-
-
-
-
-  
 
 
 
