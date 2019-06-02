@@ -88,16 +88,34 @@
  //Readable Streams: allow node js to read data to a stream
  //Duplex: can read and write to a stream
 
- var http = require('http');
+//  var http = require('http');
 
- var fs = require('fs');
+//  var fs = require('fs');
 
- var myReadStream = fs.createReadStream(__dirname + '/readMe.txt', 'utf8');
+//  var myReadStream = fs.createReadStream(__dirname + '/readMe.txt', 'utf8');
 
- myReadStream.on('data', function (chunk) {
-     console.log('new chunk recived:');
-     console.log(chunk);
- });
+//  myReadStream.on('data', function (chunk) {
+//      console.log('new chunk recived:');
+//      console.log(chunk);
+//  });
+
+ //---------------------------------------------------------------------------------------
+
+ /*
+ *  Writable Stream
+  */
+
+var http = require('http');
+
+var fs = require('fs');
+
+var myReadStream = fs.createReadStream(__dirname + '/readMe.txt', 'utf8');
+var myWriteStream = fs.createWriteStream(__dirname + '/writeMe2.txt');
+
+myReadStream.on('data', function (chunk) {
+    console.log('new chunk recived:');
+    myWriteStream.write(chunk);
+});
 
 
 
