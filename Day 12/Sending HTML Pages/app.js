@@ -62,6 +62,9 @@ var server = http.createServer(function (req, res) {
     } else if (req.url === '/contact') {
         res.writeHead('200', {'Content-Type': 'text/html'});
         fs.createReadStream(__dirname + '/contact.html').pipe(res);
+    } else if (req.url === '/print') {
+        res.writeHead('200', { 'Content-Type': 'text/html' });
+        fs.createReadStream(__dirname + '/print.html').pipe(res);
     } else if(req.url === '/api/ninjas') {
         var ninjas = [{name: 'pranav', age: 20}, {name: 'jhanvi', age: 18}];
         res.writeHead('200', {'Content-Type': 'application/JSON'});
@@ -89,3 +92,16 @@ console.log('Now listening to PORT 3000');
 // npm install [package name] -save -to keep track of the dependencies
 // All the dependencies will be under the dependencies in the json file
 // npm install can be used to install all the dependencies listed in the JSON file of an application
+
+/*
+* Nodemon
+ */
+
+ //Monitor the application file, as any changes in the application file will be monitored and after the
+ // changes the server will be restarted
+
+// npm install -g [package name] - will install the package globally
+
+//to start the server use nodemon [file name]
+
+//------------------------------------------------------------------------------------------------------
