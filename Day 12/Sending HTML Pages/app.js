@@ -74,3 +74,16 @@ var server = http.createServer(function (req, res) {
 
 server.listen(3000, '127.0.0.1');
 console.log('Now listening to PORT 3000');
+
+//----------------------------------------------------------------------------------------------------
+
+//npm install [package name] - to install a package
+//npm uninstall [package name] - to uninstall a package
+
+/*
+* Package Json File
+ */
+
+ //Json file can be used to track packages and see which package it is depended on 
+// npm init - to cetate the json file 
+// npm install [package name] -save -to keep track of the dependencies
