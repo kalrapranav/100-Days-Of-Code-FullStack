@@ -12,7 +12,5 @@
   ],
   "author": "Pranav Kalra",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "dependencies": {}
 }

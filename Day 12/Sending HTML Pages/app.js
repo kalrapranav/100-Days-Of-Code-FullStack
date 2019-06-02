@@ -87,3 +87,5 @@ console.log('Now listening to PORT 3000');
  //Json file can be used to track packages and see which package it is depended on 
 // npm init - to cetate the json file 
 // npm install [package name] -save -to keep track of the dependencies
+// All the dependencies will be under the dependencies in the json file
+// npm install can be used to install all the dependencies listed in the JSON file of an application
