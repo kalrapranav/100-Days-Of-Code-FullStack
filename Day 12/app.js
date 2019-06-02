@@ -1,13 +1,13 @@
-// var fs = require('fs');
+var fs = require('fs');
 
-// var readMe = fs.readFileSync('readMe.txt','utf8', function (err, data) {
-//     fs.writeFileSync('writeMe.txt', data)    
-// });
+var readMe = fs.readFileSync('readMe.txt','utf8', function (err, data) {
+    fs.writeFileSync('writeMe.txt', data)    
+});
 
-// console.log('test');
-// //console.log(readMe);
+console.log('test');
+//console.log(readMe);
 
-// //fs.writeFileSync('writeMe.txt',readMe);
+//fs.writeFileSync('writeMe.txt',readMe);
 
 //---------------------------------------------------------------------------------
 
@@ -15,22 +15,22 @@
 * Create and remove directions
  */
 
-//  var fs = require('fs');
+ var fs = require('fs');
 
-// //  //to delete a file
-// // fs.unlink('writeMe.txt');
+//  //to delete a file
+// fs.unlink('writeMe.txt');
 
-// // //create a directory
-// //  fs.mkdirSync('stuff');
+// //create a directory
+//  fs.mkdirSync('stuff');
 
-// // //remove a directory
-// // fs.rmkdirSync('stuff');
+// //remove a directory
+// fs.rmkdirSync('stuff');
 
-// fs.mkdir('stuff', function(){
-//    fs.readFile('readMe.txt', 'utf8', function(err, data){
-//        fs.writeFile('/d/100-Days-Of-Code-FullStack/Day 12/stuff/writeMe.txt', data);
-//    }); 
-// });
+fs.mkdir('stuff', function(){
+   fs.readFile('readMe.txt', 'utf8', function(err, data){
+       fs.writeFile('/d/100-Days-Of-Code-FullStack/Day 12/stuff/writeMe.txt', data);
+   }); 
+});
 
 //-------------------------------------------------------------------------------------
 /*
@@ -56,16 +56,16 @@
 * Creating a Server
  */
 
-//  //importing http package from nodejs
-//  var http = require('http');
+ //importing http package from nodejs
+ var http = require('http');
 
-//  //creating a server with request adn response parametres
-//  //headers are extra info about the data send
-//  var server = http.createServer(function (req, res) {
-//      console.log("request was made " + req.url);
-//      res.writeHead(200, {'Content-Type': 'text/plain'});
-//      res.end('Hey Ninjas');
-//  });
+ //creating a server with request adn response parametres
+ //headers are extra info about the data send
+ var server = http.createServer(function (req, res) {
+     console.log("request was made " + req.url);
+     res.writeHead(200, {'Content-Type': 'text/plain'});
+     res.end('Hey Ninjas');
+ });
 
 // server.listen(3000, '127.0.0.1');
 // console.log('Now listening to PORT 3000');
@@ -88,16 +88,16 @@
  //Readable Streams: allow node js to read data to a stream
  //Duplex: can read and write to a stream
 
-//  var http = require('http');
+ var http = require('http');
 
-//  var fs = require('fs');
+ var fs = require('fs');
 
-//  var myReadStream = fs.createReadStream(__dirname + '/readMe.txt', 'utf8');
+ var myReadStream = fs.createReadStream(__dirname + '/readMe.txt', 'utf8');
 
-//  myReadStream.on('data', function (chunk) {
-//      console.log('new chunk recived:');
-//      console.log(chunk);
-//  });
+ myReadStream.on('data', function (chunk) {
+     console.log('new chunk recived:');
+     console.log(chunk);
+ });
 
  //---------------------------------------------------------------------------------------
 
@@ -117,8 +117,7 @@ myReadStream.on('data', function (chunk) {
     myWriteStream.write(chunk);
 });
 
-
-
+//--------------------------------------------------------------------------------------------
 
 
 
