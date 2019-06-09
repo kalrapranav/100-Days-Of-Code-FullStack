@@ -1,1 +1,106 @@
-{"filter":false,"title":"app.js","tooltip":"/Express/FirstExpressAPP/app.js","undoManager":{"mark":100,"position":100,"stack":[[{"start":{"row":83,"column":4},"end":{"row":83,"column":5},"action":"insert","lines":["v"],"id":1988}],[{"start":{"row":83,"column":5},"end":{"row":83,"column":6},"action":"insert","lines":["a"],"id":1989}],[{"start":{"row":83,"column":6},"end":{"row":83,"column":7},"action":"insert","lines":["r"],"id":1990}],[{"start":{"row":83,"column":7},"end":{"row":83,"column":8},"action":"insert","lines":[" "],"id":1991}],[{"start":{"row":83,"column":8},"end":{"row":83,"column":9},"action":"insert","lines":["a"],"id":1992}],[{"start":{"row":83,"column":9},"end":{"row":83,"column":10},"action":"insert","lines":["n"],"id":1993}],[{"start":{"row":83,"column":10},"end":{"row":83,"column":11},"action":"insert","lines":["i"],"id":1994}],[{"start":{"row":83,"column":11},"end":{"row":83,"column":12},"action":"insert","lines":["a"],"id":1995}],[{"start":{"row":83,"column":12},"end":{"row":83,"column":13},"action":"insert","lines":["l"],"id":1996}],[{"start":{"row":83,"column":13},"end":{"row":83,"column":14},"action":"insert","lines":[" "],"id":1997}],[{"start":{"row":83,"column":13},"end":{"row":83,"column":14},"action":"remove","lines":[" "],"id":1998}],[{"start":{"row":83,"column":12},"end":{"row":83,"column":13},"action":"remove","lines":["l"],"id":1999}],[{"start":{"row":83,"column":11},"end":{"row":83,"column":12},"action":"remove","lines":["a"],"id":2000}],[{"start":{"row":83,"column":11},"end":{"row":83,"column":12},"action":"insert","lines":["m"],"id":2001}],[{"start":{"row":83,"column":12},"end":{"row":83,"column":13},"action":"insert","lines":["a"],"id":2002}],[{"start":{"row":83,"column":13},"end":{"row":83,"column":14},"action":"insert","lines":["l"],"id":2003}],[{"start":{"row":83,"column":14},"end":{"row":83,"column":15},"action":"insert","lines":[" "],"id":2004}],[{"start":{"row":83,"column":15},"end":{"row":83,"column":16},"action":"insert","lines":["-"],"id":2005}],[{"start":{"row":83,"column":16},"end":{"row":83,"column":17},"action":"insert","lines":[" "],"id":2006}],[{"start":{"row":83,"column":16},"end":{"row":83,"column":17},"action":"remove","lines":[" "],"id":2007}],[{"start":{"row":83,"column":15},"end":{"row":83,"column":16},"action":"remove","lines":["-"],"id":2008}],[{"start":{"row":83,"column":15},"end":{"row":83,"column":16},"action":"insert","lines":["="],"id":2009}],[{"start":{"row":83,"column":16},"end":{"row":83,"column":17},"action":"insert","lines":[" "],"id":2010}],[{"start":{"row":83,"column":17},"end":{"row":83,"column":18},"action":"insert","lines":["r"],"id":2011}],[{"start":{"row":83,"column":18},"end":{"row":83,"column":19},"action":"insert","lines":["e"],"id":2012}],[{"start":{"row":83,"column":17},"end":{"row":83,"column":19},"action":"remove","lines":["re"],"id":2013},{"start":{"row":83,"column":17},"end":{"row":84,"column":4},"action":"insert","lines":["var  = require(\"\");","    "]}],[{"start":{"row":83,"column":32},"end":{"row":83,"column":34},"action":"remove","lines":["\"\""],"id":2014}],[{"start":{"row":83,"column":31},"end":{"row":83,"column":33},"action":"remove","lines":["()"],"id":2015}],[{"start":{"row":83,"column":30},"end":{"row":83,"column":31},"action":"remove","lines":["e"],"id":2016}],[{"start":{"row":83,"column":29},"end":{"row":83,"column":30},"action":"remove","lines":["r"],"id":2017}],[{"start":{"row":83,"column":28},"end":{"row":83,"column":29},"action":"remove","lines":["i"],"id":2018}],[{"start":{"row":83,"column":27},"end":{"row":83,"column":28},"action":"remove","lines":["u"],"id":2019}],[{"start":{"row":83,"column":27},"end":{"row":83,"column":28},"action":"insert","lines":["."],"id":2020}],[{"start":{"row":83,"column":28},"end":{"row":83,"column":29},"action":"insert","lines":["p"],"id":2021}],[{"start":{"row":83,"column":29},"end":{"row":83,"column":30},"action":"insert","lines":["a"],"id":2022}],[{"start":{"row":83,"column":28},"end":{"row":83,"column":30},"action":"remove","lines":["pa"],"id":2023},{"start":{"row":83,"column":28},"end":{"row":83,"column":34},"action":"insert","lines":["params"]}],[{"start":{"row":83,"column":34},"end":{"row":83,"column":35},"action":"insert","lines":["."],"id":2024}],[{"start":{"row":83,"column":35},"end":{"row":83,"column":36},"action":"insert","lines":["a"],"id":2025}],[{"start":{"row":83,"column":36},"end":{"row":83,"column":37},"action":"insert","lines":["n"],"id":2026}],[{"start":{"row":83,"column":37},"end":{"row":83,"column":38},"action":"insert","lines":["i"],"id":2027}],[{"start":{"row":83,"column":35},"end":{"row":83,"column":38},"action":"remove","lines":["ani"],"id":2028},{"start":{"row":83,"column":35},"end":{"row":83,"column":41},"action":"insert","lines":["animal"]}],[{"start":{"row":83,"column":42},"end":{"row":84,"column":0},"action":"insert","lines":["",""],"id":2029},{"start":{"row":84,"column":0},"end":{"row":84,"column":4},"action":"insert","lines":["    "]}],[{"start":{"row":84,"column":4},"end":{"row":84,"column":5},"action":"insert","lines":["v"],"id":2030}],[{"start":{"row":84,"column":5},"end":{"row":84,"column":6},"action":"insert","lines":["a"],"id":2031}],[{"start":{"row":84,"column":6},"end":{"row":84,"column":7},"action":"insert","lines":["r"],"id":2032}],[{"start":{"row":84,"column":7},"end":{"row":84,"column":8},"action":"insert","lines":[" "],"id":2033}],[{"start":{"row":84,"column":8},"end":{"row":84,"column":9},"action":"insert","lines":["s"],"id":2034}],[{"start":{"row":84,"column":9},"end":{"row":84,"column":10},"action":"insert","lines":["o"],"id":2035}],[{"start":{"row":84,"column":10},"end":{"row":84,"column":11},"action":"insert","lines":["u"],"id":2036}],[{"start":{"row":84,"column":11},"end":{"row":84,"column":12},"action":"insert","lines":["n"],"id":2037}],[{"start":{"row":84,"column":12},"end":{"row":84,"column":13},"action":"insert","lines":["d"],"id":2038}],[{"start":{"row":84,"column":13},"end":{"row":84,"column":14},"action":"insert","lines":[" "],"id":2039}],[{"start":{"row":84,"column":14},"end":{"row":84,"column":15},"action":"insert","lines":["="],"id":2040}],[{"start":{"row":84,"column":15},"end":{"row":84,"column":16},"action":"insert","lines":[" "],"id":2041}],[{"start":{"row":83,"column":15},"end":{"row":83,"column":22},"action":"remove","lines":["= var  "],"id":2042}],[{"start":{"row":84,"column":16},"end":{"row":84,"column":17},"action":"insert","lines":["r"],"id":2043}],[{"start":{"row":84,"column":17},"end":{"row":84,"column":18},"action":"insert","lines":["e"],"id":2044}],[{"start":{"row":84,"column":18},"end":{"row":84,"column":19},"action":"insert","lines":["q"],"id":2045}],[{"start":{"row":84,"column":19},"end":{"row":84,"column":20},"action":"insert","lines":["."],"id":2046}],[{"start":{"row":84,"column":20},"end":{"row":84,"column":26},"action":"insert","lines":["params"],"id":2047}],[{"start":{"row":84,"column":26},"end":{"row":84,"column":27},"action":"insert","lines":["."],"id":2048}],[{"start":{"row":84,"column":27},"end":{"row":84,"column":28},"action":"insert","lines":["a"],"id":2049}],[{"start":{"row":84,"column":27},"end":{"row":84,"column":28},"action":"remove","lines":["a"],"id":2050},{"start":{"row":84,"column":27},"end":{"row":84,"column":33},"action":"insert","lines":["animal"]}],[{"start":{"row":84,"column":33},"end":{"row":84,"column":34},"action":"insert","lines":[";"],"id":2051}],[{"start":{"row":84,"column":27},"end":{"row":84,"column":33},"action":"remove","lines":["animal"],"id":2052},{"start":{"row":84,"column":27},"end":{"row":84,"column":28},"action":"insert","lines":["s"]}],[{"start":{"row":84,"column":28},"end":{"row":84,"column":29},"action":"insert","lines":["o"],"id":2053}],[{"start":{"row":84,"column":29},"end":{"row":84,"column":30},"action":"insert","lines":["u"],"id":2054}],[{"start":{"row":84,"column":27},"end":{"row":84,"column":30},"action":"remove","lines":["sou"],"id":2055},{"start":{"row":84,"column":27},"end":{"row":84,"column":32},"action":"insert","lines":["sound"]}],[{"start":{"row":84,"column":16},"end":{"row":84,"column":32},"action":"remove","lines":["req.params.sound"],"id":2056},{"start":{"row":84,"column":16},"end":{"row":84,"column":17},"action":"insert","lines":["s"]}],[{"start":{"row":84,"column":17},"end":{"row":84,"column":18},"action":"insert","lines":["o"],"id":2057}],[{"start":{"row":84,"column":18},"end":{"row":84,"column":19},"action":"insert","lines":["u"],"id":2058}],[{"start":{"row":84,"column":19},"end":{"row":84,"column":20},"action":"insert","lines":["n"],"id":2059}],[{"start":{"row":84,"column":20},"end":{"row":84,"column":21},"action":"insert","lines":["d"],"id":2060}],[{"start":{"row":84,"column":21},"end":{"row":84,"column":23},"action":"insert","lines":["[]"],"id":2061}],[{"start":{"row":84,"column":22},"end":{"row":84,"column":23},"action":"insert","lines":["a"],"id":2062}],[{"start":{"row":84,"column":23},"end":{"row":84,"column":24},"action":"insert","lines":["n"],"id":2063}],[{"start":{"row":84,"column":24},"end":{"row":84,"column":25},"action":"insert","lines":["i"],"id":2064}],[{"start":{"row":84,"column":25},"end":{"row":84,"column":26},"action":"insert","lines":["m"],"id":2065}],[{"start":{"row":84,"column":26},"end":{"row":84,"column":27},"action":"insert","lines":["a"],"id":2066}],[{"start":{"row":84,"column":27},"end":{"row":84,"column":28},"action":"insert","lines":["l"],"id":2067}],[{"start":{"row":84,"column":21},"end":{"row":84,"column":22},"action":"insert","lines":["s"],"id":2068}],[{"start":{"row":78,"column":8},"end":{"row":78,"column":14},"action":"remove","lines":["animal"],"id":2069},{"start":{"row":78,"column":8},"end":{"row":78,"column":9},"action":"insert","lines":["s"]}],[{"start":{"row":78,"column":9},"end":{"row":78,"column":10},"action":"insert","lines":["i"],"id":2070}],[{"start":{"row":78,"column":10},"end":{"row":78,"column":11},"action":"insert","lines":["y"],"id":2071}],[{"start":{"row":78,"column":11},"end":{"row":78,"column":12},"action":"insert","lines":["n"],"id":2072}],[{"start":{"row":78,"column":11},"end":{"row":78,"column":12},"action":"remove","lines":["n"],"id":2073}],[{"start":{"row":78,"column":10},"end":{"row":78,"column":11},"action":"remove","lines":["y"],"id":2074}],[{"start":{"row":78,"column":9},"end":{"row":78,"column":10},"action":"remove","lines":["i"],"id":2075}],[{"start":{"row":78,"column":9},"end":{"row":78,"column":10},"action":"insert","lines":["o"],"id":2076}],[{"start":{"row":78,"column":10},"end":{"row":78,"column":11},"action":"insert","lines":["u"],"id":2077}],[{"start":{"row":78,"column":11},"end":{"row":78,"column":12},"action":"insert","lines":["n"],"id":2078}],[{"start":{"row":78,"column":12},"end":{"row":78,"column":13},"action":"insert","lines":["d"],"id":2079}],[{"start":{"row":78,"column":13},"end":{"row":78,"column":14},"action":"insert","lines":["s"],"id":2080}],[{"start":{"row":77,"column":35},"end":{"row":77,"column":36},"action":"insert","lines":["r"],"id":2081}],[{"start":{"row":77,"column":36},"end":{"row":77,"column":37},"action":"insert","lines":["e"],"id":2082}],[{"start":{"row":77,"column":37},"end":{"row":77,"column":38},"action":"insert","lines":["q"],"id":2083}],[{"start":{"row":77,"column":38},"end":{"row":77,"column":39},"action":"insert","lines":[","],"id":2084}],[{"start":{"row":77,"column":39},"end":{"row":77,"column":40},"action":"insert","lines":[" "],"id":2085}],[{"start":{"row":77,"column":40},"end":{"row":77,"column":41},"action":"insert","lines":["r"],"id":2086}],[{"start":{"row":77,"column":41},"end":{"row":77,"column":42},"action":"insert","lines":["e"],"id":2087}],[{"start":{"row":77,"column":42},"end":{"row":77,"column":43},"action":"insert","lines":["s"],"id":2088}]]},"ace":{"folds":[],"scrolltop":1273,"scrollleft":0,"selection":{"start":{"row":77,"column":43},"end":{"row":77,"column":43},"isBackwards":true},"options":{"guessTabSize":true,"useWrapMode":false,"wrapToView":true},"firstLineState":{"row":69,"state":"start","mode":"ace/mode/javascript"}},"timestamp":1559939524491,"hash":"13464ec6f949b12571c5bb02fd42b8c68e205f2e"}
+// console.log("Sever is listening");
+// var express = require("express");    
+// var app = express();
+
+// //ROUTES
+
+// app.get("/", function(req, res) {
+//     res.send("This is / route");
+// });
+
+// app.get("/dog", function(req, res) {
+//     res.send("This is /dog route");
+// });
+
+
+// app.get("/conatct", function(req, res) {
+//     res.send("This is /contact route");
+// });
+
+// //Initializing the IP address and PORT for the express app 
+// app.listen(process.env.PORT, process.env.IP, function () {
+//     console.log("Server has started");
+// });
+
+//------------------------------------------------------------------------
+/*
+    More Routing
+*/
+
+// console.log("Sever is listening");
+// var express = require("express");    
+// var app = express();
+
+// //ROUTES
+
+// app.get("/", function(req, res) {
+//     res.send("This is / route");
+// });
+
+// app.get("/dog", function(req, res) {
+//     res.send("This is /dog route");
+// });
+
+
+// app.get("/conatct", function(req, res) {
+//     res.send("This is /contact route");
+// });
+
+// app.get("/r/subRedditName", function(req, res) {
+//     console.log(req);
+//     res.send("This is a subReddit of name:");
+    
+// })
+// app.get("*", function(req, res) {
+//     req.send("You are a star");
+// })
+
+// //Initializing the IP address and PORT for the express app 
+// app.listen(process.env.PORT, process.env.IP, function () {
+//     console.log("Server has started");
+// });
+
+//-----------------------------------------------------------------------
+/*
+    Express routing assingment
+*/
+var express = require("express");
+var app = express();
+
+//Routes
+app.get("/", function (req, res){
+    // body...
+    res.send("This is / route");
+    console.log("The server is at " + req.params.name);
+});
+
+//ROUTE for /speak/animal
+app.get("/speak/:animal", function(req, res){
+    var sounds = {
+      pig: "Oink",
+      cow: "moo",
+      fish: "blabber"
+    };
+    var animal = req.params.animal;
+    var sound = sounds[animal];
+    
+});
+
+app.listen(process.env.PORT, process.env.IP, function() {
+    // body...
+    console.log("Server is listening");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+

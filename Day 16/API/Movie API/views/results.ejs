@@ -1,0 +1,18 @@
+<h1>Results Page!!!</h1>
+
+
+
+<% for (var i = 0; i < data.Search.length; i++) { %>
+        <p>
+            Name of the Movie:
+            <strong>
+                <%= data.Search[i].Title; %>
+            </strong>  
+            ---  Year the Movie was made 
+            <strong>
+                <%= data.Search[i].Year; %>
+            </strong> 
+        </p> 
+<% } %>
+
+<a href="/">Search Again</a>

@@ -1,12 +1,12 @@
 {
-  "name": "ejsModule",
+  "name": "post",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "PK",
+  "author": "pk",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",

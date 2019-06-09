@@ -1,15 +1,14 @@
 {
-  "name": "ejsModule",
+  "name": "apirequest",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "first_request.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "PK",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^2.6.1",
-    "express": "^4.17.1"
+    "request": "^2.88.0"
   }
 }
