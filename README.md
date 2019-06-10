@@ -19,6 +19,8 @@ to the world, making yourself accountable and taking your resolve to the next le
 * DOM Manipulation
 * REACT
 * Redux
+* User Interface (UI)
+* User Experience (UX)
 
 ### Back-End Web Development
 * Cloud9
