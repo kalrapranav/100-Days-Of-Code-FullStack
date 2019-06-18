@@ -1,0 +1,15 @@
+{
+  "name": "yelp-camp-v1",
+  "version": "1.0.0",
+  "description": "Yelp Camp Version 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pranav kalra",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.17.1"
+  }
+}
