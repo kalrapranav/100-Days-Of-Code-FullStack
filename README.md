@@ -21,6 +21,7 @@ to the world, making yourself accountable and taking your resolve to the next le
 * Redux
 * User Interface (UI)
 * User Experience (UX)
+* Information Architecture (IA)
 
 ### Back-End Web Development
 * Cloud9
@@ -38,7 +39,15 @@ to the world, making yourself accountable and taking your resolve to the next le
 * Deploying
 * Git/Github
 
-### Libraries 
+### Libraries and API
+* Yelp API
+* OMDB API
+* Yahoo Weather API
 * Paper.js
 * Howler.js
 * Omdb.js
+
+### DevOps
+* Dockers and Conatiners 
+* Virtual Machines
+* Amazon E2C
