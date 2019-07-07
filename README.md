@@ -14,6 +14,7 @@ to the world, making yourself accountable and taking your resolve to the next le
 * CSS
 * CSS3
 * Bootstrap 3/4
+* Semantic UI
 * jQuery
 * Javascript
 * DOM Manipulation
