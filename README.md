@@ -47,6 +47,7 @@ to the world, making yourself accountable and taking your resolve to the next le
 * Paper.js
 * Howler.js
 * Omdb.js
+* Multer
 
 ### DevOps
 * Dockers and Conatiners 
